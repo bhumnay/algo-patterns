@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//NOTE: not much diff seen in memory or time among the  approaches
 class Solution
 {
 public:
@@ -8,7 +8,6 @@ public:
     BRUTE:
     - count bit of each i and stite the same
     TC: O(n!) SC:O(1)
-    Beats 100% in time but % in space
     */
     int countBitBrute(int n)
     {
@@ -36,7 +35,6 @@ public:
     Reuse the existing result - use caching hence dp
     - WARN::: TLE - check for &
     - TC=O(n) SC: O(n)
-    time - beats 50%  memory - beats - 17%
     */
     int countBit2(int n, vector<int> &ans)
     {

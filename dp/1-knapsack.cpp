@@ -92,7 +92,7 @@ int tabulationSolution(vector<int> &weights, vector<int> &cost, int maxWeigh)
 /*
 1D- dp:
 - since we are always concerned about i-1, we can go from n to 0 so that we are maintaining previous iteration result
-TC:O(n*W)  SC:O(n*w)[dp]
+TC:O(n*W)  SC:O(W)[dp]
 
 */
 
@@ -101,7 +101,7 @@ int oneDSolution(vector<int> &weights, vector<int> &cost, int maxWeigh)
     int n = weights.size();
     int W = maxWeigh;
     vector<int> dp(W + 1, 0);
-    for (int i = 0; i <=n ; i++)
+    for (int i = 0; i <=n ; i++) // will gave same if we go from 0->n or n->0
     {
         for (int j = W; j >= 0; j--)
         {
@@ -129,7 +129,7 @@ int main()
     int result3 = tabulationSolution(weights, cost, 10);
     cout << result3 << endl;
 
-      int result4 = oneDSolution(weights, cost, 10);
+    int result4 = oneDSolution(weights, cost, 10);
     cout << result4 << endl;
     return 0;
 }
