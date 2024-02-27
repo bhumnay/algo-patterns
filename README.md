@@ -4,9 +4,9 @@ fishing out all possible algo patterns and solving them
 # language - cpp/Java
 
 # two-pointers
-- 167. Two Sum II - Input Array Is Sorted
-- 15. 3Sum
-- n-sum
+- `167. Two Sum II - Input Array Is Sorted`
+- `15. 3Sum`
+- `n-sum`
 
 # prefix-sum
 - 1525. Number of Good Ways to Split a String
