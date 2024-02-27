@@ -24,6 +24,7 @@ fishing out all possible algo patterns and solving them
 # graph
 - `1254. Number of Closed Islands`
 - `BFS`
+- `youngest-common-ancestor`
 
 # dp
 - `1-knapsack`
