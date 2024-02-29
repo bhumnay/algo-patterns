@@ -26,6 +26,7 @@ fishing out all possible algo patterns and solving them
 - `BFS`
 - `youngest-common-ancestor`
 - `topological-sort`
+- `union-find`
 
 # dp
 - `1-knapsack`
