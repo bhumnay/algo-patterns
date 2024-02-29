@@ -27,6 +27,8 @@ fishing out all possible algo patterns and solving them
 - `youngest-common-ancestor`
 - `topological-sort`
 - `union-find`
+- `207. Course Schedule`
+- `dijkstras`
 
 # dp
 - `1-knapsack`
