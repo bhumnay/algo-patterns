@@ -25,6 +25,7 @@ fishing out all possible algo patterns and solving them
 - `1254. Number of Closed Islands`
 - `BFS`
 - `youngest-common-ancestor`
+- `topological-sort`
 
 # dp
 - `1-knapsack`
