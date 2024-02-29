@@ -29,6 +29,7 @@ fishing out all possible algo patterns and solving them
 - `union-find`
 - `207. Course Schedule`
 - `dijkstras`
+- `785.Is-graph-bipartite`
 
 # dp
 - `1-knapsack`
