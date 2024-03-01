@@ -37,6 +37,11 @@ fishing out all possible algo patterns and solving them
 - `894. All Possible Full Binary Trees`
 - `72. Edit Distance`
 - `LongestCommonSubSequence`
+- `frog-jump`
+- `at-coder/C-Vacation`
+- `at-coder/D-knapsack`
+- `at-coder/F-LCS`
+- `at-coder/G-Longest-Path`
 
 # backtracking
 - `ip-address`
