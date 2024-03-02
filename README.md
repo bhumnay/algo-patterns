@@ -42,6 +42,9 @@ fishing out all possible algo patterns and solving them
 - `at-coder/D-knapsack`
 - `at-coder/F-LCS`
 - `at-coder/G-Longest-Path`
+- `at-coder/H - Grid 1`
+- `disk stack`
+- `water-area`
 
 # backtracking
 - `ip-address`
