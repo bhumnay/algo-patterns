@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-vector<int> dijkstrasAlgorithm(int start, vector<vector<vector<int>>> edges) // TC:O(V+E) SC:O(V)
+vector<int> dijkstrasAlgorithm(int start, vector<vector<vector<int>>> edges) // TC:O((V+E)*log(V)) SC:O(V)
 {
     vector<int> distance(edges.size(), INT_MAX); // SC:O(V)
     distance[start] = 0;
@@ -13,7 +13,7 @@ vector<int> dijkstrasAlgorithm(int start, vector<vector<vector<int>>> edges) // 
     while (!pq.empty()) // O(V)
     {
         int minVertex = pq.top().second;
-        pq.pop();
+        pq.pop(); // O(log(V))
         visited[minVertex] = true;
         for (auto neighbour : edges[minVertex]) // O(E)
         {

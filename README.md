@@ -30,6 +30,7 @@ fishing out all possible algo patterns and solving them
 - `207. Course Schedule`
 - `dijkstras`
 - `785.Is-graph-bipartite`
+- `1631. Path With Minimum Effort`
 
 # dp
 - `1-knapsack`
