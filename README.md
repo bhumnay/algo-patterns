@@ -52,3 +52,6 @@ fishing out all possible algo patterns and solving them
 
 # string
 - `1366. Rank Teams by Votes`
+
+# search
+- `4 Sum`
