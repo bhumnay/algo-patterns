@@ -1,0 +1,13 @@
+Heap
+- sorting
+- COMPLETE binary tree pattern followed  - minimum height
+                                        - no waste of space in array
+- implemented using array - random access/cache friendly
+
+left_child = (2*parent) +1
+right_child = (2*parent) +2 
+
+parent = floor((child-1)/2)
+
+Min heap                                Max Heap
+parent value < child value              parent value > child value
